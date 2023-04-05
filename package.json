@@ -1,0 +1,40 @@
+{
+  "name": "@carseven/typescript-package",
+  "version": "0.0.4",
+  "description": "Template for generating typescript packages",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run ci && changeset publish"
+  },
+  "author": {
+    "name": "Carles Serra",
+    "email": "carles.serra@hotmail.es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carseven/typescript-package"
+  },
+  "bugs": {
+    "url": "https://github.com/carseven/typescript-package/issues"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "6.7.0",
+    "typescript": "5.0.3",
+    "vitest": "0.29.8"
+  }
+}
