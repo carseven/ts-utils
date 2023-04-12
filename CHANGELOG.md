@@ -1,5 +1,15 @@
 # @carseven/typescript-package
 
+## 0.1.0
+
+### Minor Changes
+
+- b55d1f2: Add if and concat types
+
+### Patch Changes
+
+- c4be93e: change project entrypoint and testing methods
+
 ## 0.0.4
 
 ### Patch Changes
