@@ -1,5 +1,4 @@
-import { MyAwaited } from "../src";
-import { If } from "../src/if";
+import { If } from "../src";
 import { Equal, Expect } from "./utils/utils";
 
 // Arrange
