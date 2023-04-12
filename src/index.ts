@@ -5,3 +5,5 @@ export * from "./first";
 export * from "./length";
 export * from "./exclude";
 export * from "./awaited";
+export * from "./if";
+export * from "./concat";
