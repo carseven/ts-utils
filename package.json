@@ -1,5 +1,5 @@
 {
-  "name": "@carseven/typescript-package",
+  "name": "@carseven/ts-utils",
   "version": "0.1.0",
   "description": "Template for generating typescript packages",
   "types": "dist/index.d.ts",
