@@ -1,5 +1,4 @@
-import { First } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { First, Equal, Expect } from "../src";
 
 // Arrange
 type arr1 = ["a", "b", "c"];

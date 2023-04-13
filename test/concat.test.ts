@@ -1,5 +1,4 @@
-import { Concat } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { Concat, Equal, Expect } from "../src";
 
 // Arrange
 type Expected1 = ["a", "b"];

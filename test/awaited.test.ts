@@ -1,5 +1,4 @@
-import { MyAwaited } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { Equal, Expect, MyAwaited } from "../src";
 
 // Arrange
 type Expected1 = string;

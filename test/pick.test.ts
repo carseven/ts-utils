@@ -1,5 +1,4 @@
-import { MyPick } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { MyPick, Equal, Expect } from "../src";
 
 // Arrange
 interface Task {

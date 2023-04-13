@@ -1,5 +1,4 @@
-import { MyReadonly } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { MyReadonly, Equal, Expect } from "../src";
 
 // Arrange
 interface Todo {

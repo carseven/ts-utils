@@ -7,3 +7,5 @@ export * from "./exclude";
 export * from "./awaited";
 export * from "./if";
 export * from "./concat";
+export * from "./includes";
+export * from "./utils";

@@ -1,5 +1,4 @@
-import { If } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { If, Equal, Expect } from "../src";
 
 // Arrange
 type Expected1 = "a";

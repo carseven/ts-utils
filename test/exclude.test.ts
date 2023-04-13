@@ -1,5 +1,4 @@
-import { MyExclude } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { MyExclude, Equal, Expect } from "../src";
 
 // Arrange
 type Expected = "b" | "c";

@@ -1,5 +1,4 @@
-import { TupleToObject } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { TupleToObject, Equal, Expect } from "../src";
 
 // Arrange
 const tuple = ["tesla", "model 3", "model X", "model Y"] as const;

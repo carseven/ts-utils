@@ -1,5 +1,4 @@
-import { Length } from "../src";
-import { Equal, Expect } from "./utils/utils";
+import { Length, Equal, Expect } from "../src";
 
 // Arrange
 type tesla = ["tesla", "model 3", "model X", "model Y"];
