@@ -9,3 +9,4 @@ export * from "./if";
 export * from "./concat";
 export * from "./includes";
 export * from "./utils";
+export * from "./push";
