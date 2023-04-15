@@ -10,3 +10,4 @@ export * from "./concat.d";
 export * from "./includes.d";
 export * from "./utils.d";
 export * from "./push.d";
+export * from "./unshift.d";
