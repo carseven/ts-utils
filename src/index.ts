@@ -10,6 +10,7 @@ export * from "./parameters.d";
 export * from "./pick.d";
 export * from "./push.d";
 export * from "./readonly.d";
+export * from "./readonly2.d";
 export * from "./return-type.d";
 export * from "./tuple-to-object.d";
 export * from "./unshift.d";
