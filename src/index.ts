@@ -5,6 +5,7 @@ export * from "./first.d";
 export * from "./if.d";
 export * from "./includes.d";
 export * from "./length.d";
+export * from "./omit.d";
 export * from "./parameters.d";
 export * from "./pick.d";
 export * from "./push.d";
