@@ -1,5 +1,6 @@
 export * from "./awaited.d";
 export * from "./concat.d";
+export * from "./deep-readonly.d";
 export * from "./exclude.d";
 export * from "./first.d";
 export * from "./if.d";
