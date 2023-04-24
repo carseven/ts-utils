@@ -14,5 +14,6 @@ export * from "./readonly.d";
 export * from "./readonly2.d";
 export * from "./return-type.d";
 export * from "./tuple-to-object.d";
+export * from "./tuple-to-union";
 export * from "./unshift.d";
 export * from "./utils.d";
