@@ -1,5 +1,11 @@
 # @carseven/typescript-package
 
+## 1.0.0
+
+### Major Changes
+
+- f7e374b: All easy type challenges
+
 ## 0.1.1
 
 ### Patch Changes

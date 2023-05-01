@@ -1,6 +1,6 @@
 {
   "name": "@carseven/ts-utils",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Template for generating typescript packages",
   "types": "dist/index.d.ts",
   "files": [
