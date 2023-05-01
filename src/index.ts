@@ -12,3 +12,4 @@ export * from "./utils.d";
 export * from "./push.d";
 export * from "./unshift.d";
 export * from "./parameters.d";
+export * from "./simple-vue.d";
