@@ -18,3 +18,5 @@ export * from "./tuple-to-object.d";
 export * from "./tuple-to-union";
 export * from "./unshift.d";
 export * from "./utils.d";
+export * from "./chainable-options.d";
+export * from "./last-array.d"
