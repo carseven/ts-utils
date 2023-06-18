@@ -1,10 +1,10 @@
-import { MyExclude, Equal, Expect } from "../src";
+import { Equal, Expect, MyExclude } from '../src';
 
 // Arrange
-type Expected = "b" | "c";
+type Expected = 'b' | 'c';
 
 // Act
-type Result = MyExclude<"a" | "b" | "c", "a">;
+type Result = MyExclude<'a' | 'b' | 'c', 'a'>;
 
 // Assert
 type TEST = Expect<Equal<Expected, Result>>;

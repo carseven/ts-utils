@@ -1,11 +1,11 @@
-import { First, Equal, Expect } from "../src";
+import { Equal, Expect, First } from '../src';
 
 // Arrange
-type arr1 = ["a", "b", "c"];
+type arr1 = ['a', 'b', 'c'];
 type arr2 = [3, 2, 1];
 type arr3 = [];
 
-type Expected1 = "a";
+type Expected1 = 'a';
 type Expected2 = 3;
 type Expected3 = never;
 

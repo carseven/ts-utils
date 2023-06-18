@@ -1,4 +1,4 @@
-import { Equal, Expect, MyReturnType } from "../src";
+import { Equal, Expect, MyReturnType } from '../src';
 
 type A1 = MyReturnType<() => string>;
 type B1 = string;
@@ -9,9 +9,9 @@ type B2 = 123;
 type C2 = Expect<Equal<A2, B2>>;
 
 type ComplexObject = {
-  a: [12, "foo"];
-  bar: "hello";
-  prev(): number;
+    a: [12, 'foo'];
+    bar: 'hello';
+    prev(): number;
 };
 type A3 = MyReturnType<() => ComplexObject>;
 type B3 = ComplexObject;
@@ -21,8 +21,8 @@ type A4 = MyReturnType<() => Promise<boolean>>;
 type B4 = Promise<boolean>;
 type C4 = Expect<Equal<A4, B4>>;
 
-type A5 = MyReturnType<() => () => "foo">;
-type B5 = () => "foo";
+type A5 = MyReturnType<() => () => 'foo'>;
+type B5 = () => 'foo';
 type C5 = Expect<Equal<A5, B5>>;
 
 const fn = (v: boolean) => (v ? 1 : 2);

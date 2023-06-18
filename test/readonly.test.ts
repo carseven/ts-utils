@@ -1,13 +1,13 @@
-import { MyReadonly, Equal, Expect } from "../src";
+import { Equal, Expect, MyReadonly } from '../src';
 
 // Arrange
 interface Todo {
-  title: string;
-  description: string;
+    title: string;
+    description: string;
 }
 type Expected = {
-  readonly title: string;
-  readonly description: string;
+    readonly title: string;
+    readonly description: string;
 };
 
 // Act

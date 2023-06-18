@@ -28,7 +28,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
+    "@changesets/cli": "2.26.1",
+    "eslint": "8.43.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
     "tsup": "6.7.0",
     "typescript": "5.0.3"
   }
