@@ -1,38 +1,42 @@
 {
-  "name": "@carseven/ts-utils",
-  "version": "1.0.0",
-  "description": "Template for generating typescript packages",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsup src/index.ts --dts-only",
-    "lint": "tsc",
-    "ci": "pnpm run lint && pnpm run build",
-    "release": "pnpm run ci && changeset publish"
-  },
-  "author": {
-    "name": "Carles Serra",
-    "email": "carles.serra@hotmail.es"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/carseven/typescript-package"
-  },
-  "bugs": {
-    "url": "https://github.com/carseven/typescript-package/issues"
-  },
-  "keywords": [
-    "typescript"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "@changesets/cli": "2.26.1",
-    "eslint": "8.43.0",
-    "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "tsup": "6.7.0",
-    "typescript": "5.0.3"
-  }
+    "name": "@carseven/ts-utils",
+    "version": "1.0.0",
+    "description": "Template for generating typescript packages",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --dts-only",
+        "compile": "tsc",
+        "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+        "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+        "ci": "pnpm run compile && pnpm run lint && pnpm run format && pnpm run build",
+        "release": "pnpm run ci && changeset publish"
+    },
+    "author": {
+        "name": "Carles Serra",
+        "email": "carles.serra@hotmail.es"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/carseven/typescript-package"
+    },
+    "bugs": {
+        "url": "https://github.com/carseven/typescript-package/issues"
+    },
+    "keywords": [
+        "typescript"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@changesets/cli": "2.26.1",
+        "@typescript-eslint/eslint-plugin": "5.60.0",
+        "@typescript-eslint/parser": "5.60.0",
+        "eslint": "8.43.0",
+        "eslint-config-prettier": "8.8.0",
+        "prettier": "2.8.8",
+        "tsup": "6.7.0",
+        "typescript": "5.0.3"
+    }
 }

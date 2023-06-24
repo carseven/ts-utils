@@ -26,16 +26,12 @@
 */
 
 export type DeepReadonly<T> = {
-    readonly [P in keyof T]: keyof T[P] extends never
-        ? T[P]
-        : DeepReadonly<T[P]>;
+    readonly [P in keyof T]: keyof T[P] extends never ? T[P] : DeepReadonly<T[P]>;
 };
 
 // Other alternatives
 type DeepReadonly<T> = {
-    readonly [P in keyof T]: keyof T[P] extends never
-        ? T[P]
-        : DeepReadonly<T[P]>;
+    readonly [P in keyof T]: keyof T[P] extends never ? T[P] : DeepReadonly<T[P]>;
 };
 
 type DeepReadonly<T> = T extends object & { call?(): never } // exclude functions from `object` type, equivalent to `T extends Function`

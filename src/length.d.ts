@@ -3,6 +3,4 @@
 // Simple version
 type LengthSimple<T extends unknown[]> = T['length'];
 
-export type Length<T extends unknown[]> = T extends { length: infer R }
-    ? R
-    : never;
+export type Length<T extends unknown[]> = T extends { length: infer R } ? R : never;

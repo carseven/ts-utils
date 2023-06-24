@@ -7,7 +7,7 @@ type MapFnToProp<FunctionObj extends FnObj> = {
 
 // Using ThisType to Define this in Objects
 export type Options<Data, Computed extends FnObj, Methods> = {
-    data(this: {}): Data;
+    data(this: object): Data;
     computed?: Computed & ThisType<Data>;
     methods?: Methods & ThisType<Data & MapFnToProp<Computed> & Methods>;
 };
