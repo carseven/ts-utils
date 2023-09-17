@@ -1,5 +1,4 @@
 export * from './awaited.d';
-export * from './chainable-options.d';
 export * from './concat.d';
 export * from './deep-readonly.d';
 export * from './exclude.d';
